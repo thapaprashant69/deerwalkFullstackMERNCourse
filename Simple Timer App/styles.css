@@ -1,0 +1,16 @@
+.mainClass{
+    text-align: center;
+}
+
+.timeInput{
+    width: 7em;
+    height: 5em;
+    text-align: center;  
+    font-size: 4em;  
+}
+
+#getTime{
+    margin-top: 80px;
+    height: 100px;
+    width: 150px;
+}
