@@ -7,6 +7,11 @@ function Person(firstName,phone,address){
     }
 }
 
+Person.prototype.sayBye = function(){
+    return `Goodbye ${this.firstName}`;
+}
+
 const person = new Person("Prashant",["9849748809","9816591055"],"Manamaiju");
 
 console.log(person);
+console.log(person.sayBye());
